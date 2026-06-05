@@ -115,10 +115,10 @@ DELETE /api/issues/:id
 ![Projects](screenshots/projects.png)
 
 ### Issues
-![Issues](screenshots/issues.png)
+![Issues](screenshots/issue.png)
 
 ### Issue Details
-![Issue Details](screenshots/issue-details.png)
+![Issue Details](screenshots/issuedetails.png)
 
 
 ## Future Improvements
