@@ -106,70 +106,20 @@ GET    /api/issues/:id
 PUT    /api/issues/:id/status
 DELETE /api/issues/:id
 ```
-
-## How to Run the Project
-
-### 1. Clone the repository
-
-```bash
-git clone <your-repository-url>
-cd bugflow
-```
-
-### 2. Set up backend
-
-```bash
-cd backend
-npm install
-```
-
-Create a `.env` file inside the `backend` folder and add:
-
-```env
-PORT=5000
-MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_jwt_secret
-```
-
-Start the backend server:
-
-```bash
-npm run dev
-```
-
-Backend runs on:
-
-```text
-http://localhost:5000
-```
-
-### 3. Set up frontend
-
-Open a new terminal:
-
-```bash
-cd frontend
-npm install
-npm run dev
-```
-
-Frontend runs on:
-
-```text
-http://localhost:5173
-```
-
 ## Screenshots
 
-Add screenshots here after running the project.
+### Dashboard
+![Dashboard](screenshots/dashboard.png)
 
-Suggested screenshots:
+### Projects
+![Projects](screenshots/projects.png)
 
-* Login page
-* Dashboard
-* Projects page
-* Issues page
-* Issue details page
+### Issues
+![Issues](screenshots/issues.png)
+
+### Issue Details
+![Issue Details](screenshots/issue-details.png)
+
 
 ## Future Improvements
 
@@ -183,4 +133,5 @@ Suggested screenshots:
 
 ## Project Status
 
-Core features are completed. The project is ready for portfolio use and can be improved further with advanced issue tracking features.
+Core features are completed. 
+
