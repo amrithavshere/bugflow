@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  background-color: #f5f7fb;
+  font-family: Arial, sans-serif;
+  color: #1f2937;
+}
+
+.page-container {
+  padding-top: 24px;
+  padding-bottom: 40px;
+}
+
+.page-title {
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.page-subtitle {
+  color: #6b7280;
+  margin-bottom: 0;
+}
+
+.card {
+  border: none;
+  border-radius: 14px;
+}
+
+.card.shadow-sm {
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.06) !important;
+}
+
+.summary-card {
+  border-radius: 16px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.summary-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08) !important;
+}
+
+.summary-label {
+  color: #6b7280;
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.summary-number {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.form-control,
+.form-select {
+  border-radius: 10px;
+}
+
+.btn {
+  border-radius: 10px;
+}
+
+.table {
+  background-color: white;
+}
+
+.table thead th {
+  color: #374151;
+  font-size: 14px;
+}
+
+.badge {
+  text-transform: capitalize;
+  padding: 7px 10px;
+}
+
+.auth-card {
+  max-width: 500px;
+  margin: 60px auto;
+  border-radius: 18px;
+}
